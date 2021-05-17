@@ -1,0 +1,49 @@
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+  .app-body {
+    margin: 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #f6f6ef;
+    .nav-bar-hacker-news {
+      display: flex;
+      background: #ff6600;
+      font-family: Verdana, Geneva, sans-serif;
+      flex-wrap: wrap;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: 200;
+      font-size: 12px;
+      margin-left: 5px;
+      padding: 3px;
+    }
+  }
+}
+@media screen and (min-width: 800px) {
+  body {
+    background-color: white;
+  }
+  .app-body {
+    margin: 0 100px 0 100px;
+    background: #f6f6ef;
+    .nav-bar-hacker-news {
+      display: flex;
+      background: #ff6600;
+      font-family: Verdana, Geneva, sans-serif;
+      padding: 2px;
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 200;
+        font-size: 12px;
+        margin-left: 5px;
+        padding: 3px;
+      }
+    }
+  }
+}

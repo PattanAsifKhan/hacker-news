@@ -1,0 +1,20 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  border-top: 3px solid #ff6600;
+
+  .first-row {
+    display: flex;
+    justify-content: center;
+    a {
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 12px;
+      margin: 5px;
+    }
+  }
+  .second-row {
+    display: flex;
+    justify-content: center;
+  }
+}
